@@ -49,7 +49,7 @@ main
     height: 260px;
     width: 500px;
     background-image: url(kiavshyundai.jpg);
-    background-size: 100%;
+    background-size: cover;
 }
 .parag1
 {

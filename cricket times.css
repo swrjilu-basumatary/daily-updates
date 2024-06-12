@@ -92,8 +92,20 @@ ul li:nth-child(2)
     width: 450px;
     box-shadow: 0 0 5px green;
     border-radius: 3px;
-    color: black;
     margin-top: 30px;
+    color: black;
+}
+.toyota
+{
+    height: 100%;
+    width: 35%;
+    margin-right: 15px;
+    float: left  
+}
+.toyotatext
+{
+    text-decoration: none;
+    font-size: larger;  
 }
 
 .container05
@@ -103,7 +115,7 @@ ul li:nth-child(2)
     box-shadow: 0 0 5px green;
     border-radius: 3px;
     color: black;
-    margin-top: -175px;
+    margin-top: 30px;
 }
 .mahindra 
 {
@@ -114,9 +126,8 @@ ul li:nth-child(2)
 }
 .mahindratext
 {
-    margin-top: 20%;
     text-decoration: none;
-    font-size: larger;   
+    font-size: larger;  
 }
 
 .container04
@@ -126,7 +137,7 @@ ul li:nth-child(2)
     box-shadow: 0 0 5px green;
     border-radius: 3px;
     color: black;
-    margin-top: -220px;
+    margin-top: 0px;
 }
 .elevate
 {
@@ -137,10 +148,10 @@ ul li:nth-child(2)
 }
 .elevatetext
 {
-    margin-top: 20%;
     text-decoration: none;
     font-size: larger;
 }
+
 .container03
 {
     height: 110px;
@@ -148,11 +159,10 @@ ul li:nth-child(2)
     box-shadow: 0 0 5px green;
     border-radius: 3px;
     color: black;
-    margin-top: -220px;
+    margin-top: 0px;
 }
 .swifttext
 {
-    margin-top: 20%;
     text-decoration: none;
     font-size: larger;
 }
@@ -171,11 +181,10 @@ ul li:nth-child(2)
     box-shadow: 0 0 5px green;
     border-radius: 3px;
     color: black;
-    margin-top: -250px;
+    margin-top: 0px;
 }
 .sonnettext
  { 
-    margin-top: 20%;
     text-decoration: none;
     font-size: larger;
  }
@@ -195,7 +204,7 @@ ul li:nth-child(2)
     width: 450px;
     box-shadow: 0 0 5px green;
     border-radius: 3px;
-    margin-top: -45px;
+    margin-top: 0px;
     color: black;
 }
 .kiatext
@@ -249,6 +258,7 @@ ul li:nth-child(2)
     width: 450px;
     box-shadow: 0 0 5px green;
     margin-top: 30px;
+    color: black;
 }
 .container002
 {
@@ -256,18 +266,21 @@ ul li:nth-child(2)
     width: 450px;
     box-shadow: 0 0 5px green;
     margin-top: 30px;
+    color: black;
 }
 .container003
 {
     height: 110px;
     width: 450px;
     box-shadow: 0 0 5px green;
+    color: black;
 }
 .container004
 {
     height: 110px;
     width: 450px;
     box-shadow: 0 0 5px green;
+    color: black;
 }
 .container005
 {
@@ -275,6 +288,19 @@ ul li:nth-child(2)
     width: 450px;
     box-shadow: 0 0 5px green;
     margin-bottom: 30px;
+    color: black;
+}
+.hondacb
+{
+    height: 100%;
+    width: 35%;
+    margin-right: 15px;
+    float: left;
+}
+.hondacbtext
+{
+    text-decoration: none;
+    font-size: larger; 
 }
 .container006
 {
@@ -282,8 +308,20 @@ ul li:nth-child(2)
     width: 450px;
     box-shadow: 0 0 5px green;
     margin-bottom: 30px;
+    color: black;
 }
-
+.yamaha
+{
+    height: 100%;
+    width: 35%;
+    margin-right: 15px;
+    float: left;  
+}
+.yamahatext
+{
+    text-decoration: none;
+    font-size: larger;
+}
 .box1::-webkit-scrollbar
 {
     height: 0px;
@@ -342,7 +380,6 @@ footer
 {
     height: 110px;
     width: 450px;
-    margin-top: -170px;
 }
 .container04
 {
@@ -363,7 +400,6 @@ footer
 {
     height: 110px;
     width: 450px;
-    margin-top: -50px;
 }
 
 /* bike reviews */
@@ -451,38 +487,37 @@ footer
 {
     height: 110px;
     width: 450px;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 .container05
 {
     height: 110px;
     width: 450px;
-    margin-top: -70px;
+    margin-top: 30px;
 }
 .container04
 {
     height: 110px;
     width: 450px;
-    margin-top: -70px;
+    margin-top: 30px;
 }
 .container03
 {
     height: 110px;
     width: 450px;
-    margin-top: -70px;
+    margin-top: 30px;
 }
 .container02
 {
     height: 110px;
     width: 450px;
-    margin-top: -80px;
-    margin-bottom: 0px;
+    margin-top: 30px;
 }
 .container01
 {
     height: 110px;
     width: 450px;
-    margin-top: 40px;
+    margin-top: 30px;
     margin-bottom: 30px;
 }
 
@@ -586,31 +621,31 @@ footer
  {
      height: 110px;
      width: 390px;
-     margin-top: -60px;
+     margin-top: 30px;
  }
  .container04
  {
      height: 110px;
      width: 390px;
-     margin-top: -60px;
+     margin-top: 30px;
  }
  .container03
  {
      height: 110px;
      width: 390px;
-     margin-top: -60px;
+     margin-top: 30px;
  }
  .container02
  {
      height: 110px;
      width: 390px;
-     margin-top: -60px;
+     margin-top: 30px;
  }
  .container01
  {
      height: 110px;
      width: 390px;
-     margin-top: 20px;
+     margin-top: 30px;
      margin-bottom: 30px;
  }
  
