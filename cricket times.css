@@ -1,0 +1,676 @@
+header
+{
+    width: auto;
+    box-shadow: 0 0 3px  rgb(255, 199, 96);
+}
+ul
+{
+    list-style: none;
+    display: inline-flex;
+}
+ul li:nth-child(1)
+{
+    color: black;
+    font-size: large;
+    font-weight: 1000;
+}
+ul li:nth-child(2)
+{
+    color: red;
+    font-size: large;
+    font-weight: 1000;
+}
+
+/* #latest
+{
+    margin-top: 70px;
+    text-align: left;
+    margin-left: 250px;
+    color: red;
+    font-size: 20px;
+} */
+
+.pre1
+{
+    padding-top: 20px;
+    font-size: small;
+}
+.pre2
+{
+    padding-top: 25px;
+    font-size: small;
+}
+.pre3
+{
+    padding-top: 20px;
+    font-size: small;
+}
+.pre4
+{
+    padding-top: 10px;
+    font-size: small;
+}
+.pre5
+{
+    padding-top: 5px;
+    font-size: small;
+}
+.pre6
+{
+    padding-top: 10px;
+    font-size: small;
+}
+
+/* car reviews */
+
+#carsreviews
+{
+    margin-top: 50px;
+    text-align: left;
+    margin-left: 250px;
+    color:red;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.box
+{
+    height: 500px;
+    width: 1050px;
+    /* box-shadow: 0 0 3PX green; */
+    margin-left: 225px;
+    margin-top: 0px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+}
+
+.container06
+{
+    height: 110px;
+    width: 450px;
+    box-shadow: 0 0 5px green;
+    border-radius: 3px;
+    color: black;
+    margin-top: 30px;
+}
+
+.container05
+{
+    height: 110px;
+    width: 450px;
+    box-shadow: 0 0 5px green;
+    border-radius: 3px;
+    color: black;
+    margin-top: -175px;
+}
+.mahindra 
+{
+    height: 100%;
+    width: 35%;
+    margin-right: 15px;
+    float: left 
+}
+.mahindratext
+{
+    margin-top: 20%;
+    text-decoration: none;
+    font-size: larger;   
+}
+
+.container04
+{
+    height: 110px;
+    width: 450px;
+    box-shadow: 0 0 5px green;
+    border-radius: 3px;
+    color: black;
+    margin-top: -220px;
+}
+.elevate
+{
+    height: 100%;
+    width: 35%;
+    margin-right: 15px;
+    float: left
+}
+.elevatetext
+{
+    margin-top: 20%;
+    text-decoration: none;
+    font-size: larger;
+}
+.container03
+{
+    height: 110px;
+    width: 450px;
+    box-shadow: 0 0 5px green;
+    border-radius: 3px;
+    color: black;
+    margin-top: -220px;
+}
+.swifttext
+{
+    margin-top: 20%;
+    text-decoration: none;
+    font-size: larger;
+}
+.swift
+{
+    height: 100%;
+    width: 35%;
+    margin-right: 15px;
+    float: left;
+}
+
+.container02
+{
+    height: 110px;
+    width: 450px;
+    box-shadow: 0 0 5px green;
+    border-radius: 3px;
+    color: black;
+    margin-top: -250px;
+}
+.sonnettext
+ { 
+    margin-top: 20%;
+    text-decoration: none;
+    font-size: larger;
+ }
+
+.sonnet
+
+ {
+        height: 100%;
+        width: 35%;
+        margin-right: 15px;
+        float: left;
+ }
+ 
+.container01
+{
+    height: 110px;
+    width: 450px;
+    box-shadow: 0 0 5px green;
+    border-radius: 3px;
+    margin-top: -45px;
+    color: black;
+}
+.kiatext
+{
+    text-decoration: none;
+    font-size: larger;
+
+}
+.kia
+{
+    height: 100%;
+    width: 35%;
+    margin-right: 15px;
+    float: left;
+}
+
+.box::-webkit-scrollbar
+{
+    height: 0px;
+}
+
+/* bike reviews */
+
+
+
+#bikereviews
+{
+    margin-top: 50px;
+    text-align: left;
+    margin-left: 250px;
+    color:red;
+    font-size: 20px;
+    font-style: italic; 
+}
+.box1
+{
+    height: 500px;
+    width: 1050px;
+    /* box-shadow: 0 0 3PX green; */
+    margin-left: 225px;
+    margin-top: 0px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+}
+
+.container001
+{
+    height: 110px;
+    width: 450px;
+    box-shadow: 0 0 5px green;
+    margin-top: 30px;
+}
+.container002
+{
+    height: 110px;
+    width: 450px;
+    box-shadow: 0 0 5px green;
+    margin-top: 30px;
+}
+.container003
+{
+    height: 110px;
+    width: 450px;
+    box-shadow: 0 0 5px green;
+}
+.container004
+{
+    height: 110px;
+    width: 450px;
+    box-shadow: 0 0 5px green;
+}
+.container005
+{
+    height: 110px;
+    width: 450px;
+    box-shadow: 0 0 5px green;
+    margin-bottom: 30px;
+}
+.container006
+{
+    height: 110px;
+    width: 450px;
+    box-shadow: 0 0 5px green;
+    margin-bottom: 30px;
+}
+
+.box1::-webkit-scrollbar
+{
+    height: 0px;
+}
+
+
+footer
+{
+  height: 100px;
+  box-shadow: 0 0 3px rgb(255, 204, 109);
+  text-align: center;
+  margin-top: 100px;
+}
+.foot
+{
+    margin-top: 50px;
+    font-size: large;
+}
+
+/* media queries 1025px */
+
+
+@media (max-width:1025px)
+{
+    
+    header
+    {
+        font-size: medium;
+    }
+
+    #latest
+    {
+    margin-left: 20px; 
+    }
+
+
+    /* car reviews */
+
+#carsreviews
+{
+    margin-left: 20px;  
+}
+
+.box
+{
+    height: 500px;
+    width: 1000px;
+    margin-left: 5px;
+}
+.container06
+{
+    height: 110px;
+    width: 450px;
+}
+.container05
+{
+    height: 110px;
+    width: 450px;
+    margin-top: -170px;
+}
+.container04
+{
+    height: 110px;
+    width: 450px;
+}
+.container03
+{
+    height: 110px;
+    width: 450px;
+}
+.container02
+{
+    height: 110px;
+    width: 450px;
+}
+.container01
+{
+    height: 110px;
+    width: 450px;
+    margin-top: -50px;
+}
+
+/* bike reviews */
+
+#bikereviews
+{
+    text-align: left;
+    margin-left: 20px;
+}
+.box1
+{
+    height: 500px;
+    width: 1000px;
+    margin-left: 5px;
+}
+
+.container001
+{
+    height: 110px;
+    width: 450px;
+}
+.container002
+{
+    height: 110px;
+    width: 450px;
+}
+.container003
+{
+    height: 110px;
+    width: 450px;
+}
+.container004
+{
+    height: 110px;
+    width: 450px;
+}
+.container005
+{
+    height: 110px;
+    width: 450px;
+}
+.container006
+{
+    height: 110px;
+    width: 450px;
+}
+
+
+
+    .foot
+    {
+        font-size: 1.2rem;
+    }   
+}
+
+/* media queries 770px */
+
+@media (max-width:770px)
+{
+    
+    header
+    {
+        font-size: medium;
+    }
+    #latest
+    {
+    margin-left: 20px; 
+    }
+
+    /* car reviews */
+   
+ #carsreviews
+{
+    margin-left: 20px;  
+}
+
+.box
+{
+    height: 500px;
+    width: 600px;
+    margin-left: 70px;
+}
+
+.container06
+{
+    height: 110px;
+    width: 450px;
+    margin-top: 20px;
+}
+.container05
+{
+    height: 110px;
+    width: 450px;
+    margin-top: -70px;
+}
+.container04
+{
+    height: 110px;
+    width: 450px;
+    margin-top: -70px;
+}
+.container03
+{
+    height: 110px;
+    width: 450px;
+    margin-top: -70px;
+}
+.container02
+{
+    height: 110px;
+    width: 450px;
+    margin-top: -80px;
+    margin-bottom: 0px;
+}
+.container01
+{
+    height: 110px;
+    width: 450px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+/* bike reviews */
+
+#bikereviews
+{
+    text-align: left;
+    margin-left: 20px;
+}
+.box1
+{
+    height: 500px;
+    width: 600px;
+    margin-left: 70px;
+}
+
+.container006
+{
+    height: 110px;
+    width: 450px;
+    margin-top: 20px;
+}
+.container005
+{
+    height: 110px;
+    width: 450px;
+    margin-top: 40px;
+}
+.container004
+{
+    height: 110px;
+    width: 450px;
+    margin-top: 40px;
+}
+.container003
+{
+    height: 110px;
+    width: 450px;
+    margin-top: 40px;
+}
+.container002
+{
+    height: 110px;
+    width: 450px;
+    margin-top: 40px;
+}
+.container001
+{
+    height: 110px;
+    width: 450px;
+    margin-top: 40px;
+}
+
+
+footer
+ {
+   
+ font-size: 1.2rem;
+ }
+ .foot
+ {
+  font-size: 1.2rem;
+ }   
+}
+
+/* media queries 431px */
+
+@media (max-width:431px)
+{
+    
+    header
+    {
+        font-size: medium;
+    }
+    #latest
+    {
+    margin-left: 10px; 
+    }
+   
+     /* car reviews */
+   
+ #carsreviews
+ {
+     margin-left: 20px;  
+ }
+ 
+ .box
+ {
+     height: 500px;
+     width: 410px;
+     margin-left: 5px;
+ }
+ .container06
+ {
+     height: 110px;
+     width: 390px;
+     margin-top: 30px;
+ }
+ .container05
+ {
+     height: 110px;
+     width: 390px;
+     margin-top: -60px;
+ }
+ .container04
+ {
+     height: 110px;
+     width: 390px;
+     margin-top: -60px;
+ }
+ .container03
+ {
+     height: 110px;
+     width: 390px;
+     margin-top: -60px;
+ }
+ .container02
+ {
+     height: 110px;
+     width: 390px;
+     margin-top: -60px;
+ }
+ .container01
+ {
+     height: 110px;
+     width: 390px;
+     margin-top: 20px;
+     margin-bottom: 30px;
+ }
+ 
+ /* bike reviews */
+ 
+ #bikereviews
+ {
+     text-align: left;
+     margin-left: 10px;
+ }
+ .box1
+ {
+     height: 500px;
+     width: 410px;
+     margin-left: 5px;
+ }
+ 
+ .container006
+ {
+     height: 110px;
+     width: 390px;
+     margin-top: 30px;
+ }
+ .container005
+ {
+     height: 110px;
+     width: 390px;
+     margin-top: 30px;
+ }
+ .container004
+ {
+     height: 110px;
+     width: 390px;;
+     margin-top: 30px;
+ }
+ .container003
+ {
+     height: 110px;
+     width: 390px;;
+     margin-top: 30px;
+ }
+ .container002
+ {
+     height: 110px;
+     width: 390px;
+     margin-top: 30px;
+ }
+ .container001
+ {
+     height: 110px;
+     width: 390px;
+     margin-top: 20px;
+ }
+     footer
+    {
+    font-size: 1.2rem;
+    }
+    .foot
+    {
+        font-size: 1.2rem;
+    }   
+}
+
