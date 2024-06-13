@@ -1,7 +1,7 @@
 header
 {
     width: auto;
-    box-shadow: 0 0 3px  rgb(255, 199, 96);
+    border-bottom: 1px solid red;
 }
 ul
 {
@@ -11,25 +11,102 @@ ul
 ul li:nth-child(1)
 {
     color: black;
-    font-size: large;
-    font-weight: 1000;
+    font-size: larger;
+    font-weight: bolder;
 }
 ul li:nth-child(2)
 {
     color: red;
-    font-size: large;
-    font-weight: 1000;
+    font-size: larger;
+    font-weight: bolder;
+}
+main{
+    height: auto;
+    width: 1050px;
+    margin-left: 225px;
 }
 
-/* #latest
+/* latest updates */
+
+#latest
 {
     margin-top: 70px;
     text-align: left;
-    margin-left: 250px;
-    color: red;
-    font-size: 20px;
-} */
+    margin-left: 30px;
+    color: black;
+    font-size: 23px;
+    font-weight: bold;
+}
 
+.btn2{
+background-color: white;
+border: 0px;
+color: rgb(0, 82, 82);
+margin-left: 80px;
+font-size: 17px;
+cursor: pointer;
+/* border-bottom: 2px solid red; */
+}
+
+.btn3{
+    background-color: white;
+    border: 0px;
+    color: rgb(0, 82, 82);
+    margin-left: 20px; 
+    font-size: 17px;
+    cursor: pointer;
+    /* border-bottom: 2px solid red; */
+}
+
+.box1{
+    height: 300px;
+    width: 1030px;
+    /* box-shadow: 0 0 3px green; */
+    margin-left: 5px;
+    margin-right: 0px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+
+}
+.container5{
+    height: 250px;
+    width: 230px;
+    margin-top: 25px;
+    margin-left: 30px;
+    box-shadow: 0 0 2px gray;
+}
+.container4{
+    height: 250px;
+    width: 230px;
+    margin-top: 25px;
+    margin-left: 25px;
+    box-shadow: 0 0 2px gray;
+}
+.container3{
+    height: 250px;
+    width: 230px;
+    margin-top: 25px;
+    margin-left: 25px;
+    box-shadow: 0 0 2px gray;
+}
+.container2{
+    height: 250px;
+    width: 230px;
+    margin-top: 25px;
+    margin-left: 25px;
+    box-shadow: 0 0 2px gray;
+}
+.container1{
+    height: 250px;
+    width: 230px;
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+    box-shadow: 0 0 2px gray;
+}
 .pre1
 {
     padding-top: 20px;
@@ -67,18 +144,18 @@ ul li:nth-child(2)
 {
     margin-top: 50px;
     text-align: left;
-    margin-left: 250px;
-    color:red;
-    font-size: 20px;
-    font-style: italic;
+    margin-left: 30px;
+    color:black;
+    font-size: 23px;
+    font-weight: bold;
 }
 
-.box
+.box2
 {
-    height: 500px;
+    height: 550px;
     width: 1050px;
     /* box-shadow: 0 0 3PX green; */
-    margin-left: 225px;
+    margin-left: 0px;
     margin-top: 0px;
     display: flex;
     justify-content: space-evenly;
@@ -183,23 +260,19 @@ ul li:nth-child(2)
     color: black;
     margin-top: 0px;
 }
-.sonnettext
- { 
+.sonnettext{ 
     text-decoration: none;
     font-size: larger;
  }
 
-.sonnet
-
- {
+.sonnet{
         height: 100%;
         width: 35%;
         margin-right: 15px;
         float: left;
  }
  
-.container01
-{
+.container01{
     height: 110px;
     width: 450px;
     box-shadow: 0 0 5px green;
@@ -207,138 +280,51 @@ ul li:nth-child(2)
     margin-top: 0px;
     color: black;
 }
-.kiatext
-{
+
+.kiatext{
     text-decoration: none;
     font-size: larger;
 
 }
-.kia
-{
+.kia{
     height: 100%;
     width: 35%;
     margin-right: 15px;
     float: left;
 }
 
-.box::-webkit-scrollbar
-{
+.box1::-webkit-scrollbar{
+    width: 0px;
+}
+.box2::-webkit-scrollbar{
     height: 0px;
 }
 
-/* bike reviews */
-
-
-
-#bikereviews
-{
-    margin-top: 50px;
-    text-align: left;
-    margin-left: 250px;
-    color:red;
-    font-size: 20px;
-    font-style: italic; 
-}
-.box1
-{
-    height: 500px;
-    width: 1050px;
-    /* box-shadow: 0 0 3PX green; */
-    margin-left: 225px;
+.btn1{
+    height: 35px;
+    width: 130px;
+    margin-left: 750px;
     margin-top: 0px;
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    overflow-y: scroll;
-}
-
-.container001
-{
-    height: 110px;
-    width: 450px;
-    box-shadow: 0 0 5px green;
-    margin-top: 30px;
-    color: black;
-}
-.container002
-{
-    height: 110px;
-    width: 450px;
-    box-shadow: 0 0 5px green;
-    margin-top: 30px;
-    color: black;
-}
-.container003
-{
-    height: 110px;
-    width: 450px;
-    box-shadow: 0 0 5px green;
-    color: black;
-}
-.container004
-{
-    height: 110px;
-    width: 450px;
-    box-shadow: 0 0 5px green;
-    color: black;
-}
-.container005
-{
-    height: 110px;
-    width: 450px;
-    box-shadow: 0 0 5px green;
-    margin-bottom: 30px;
-    color: black;
-}
-.hondacb
-{
-    height: 100%;
-    width: 35%;
-    margin-right: 15px;
-    float: left;
-}
-.hondacbtext
-{
-    text-decoration: none;
-    font-size: larger; 
-}
-.container006
-{
-    height: 110px;
-    width: 450px;
-    box-shadow: 0 0 5px green;
-    margin-bottom: 30px;
-    color: black;
-}
-.yamaha
-{
-    height: 100%;
-    width: 35%;
-    margin-right: 15px;
-    float: left;  
-}
-.yamahatext
-{
-    text-decoration: none;
-    font-size: larger;
-}
-.box1::-webkit-scrollbar
-{
-    height: 0px;
-}
-
-
-footer
-{
-  height: 100px;
-  box-shadow: 0 0 3px rgb(255, 204, 109);
-  text-align: center;
-  margin-top: 100px;
-}
-.foot
-{
-    margin-top: 50px;
+    background-color: rgb(0, 67, 91);
+    color: white;
+    border-radius: 10px;
     font-size: large;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+footer{
+  height: 150px;
+  background-color:rgb(0, 142, 161);
+  /* border-top-left-radius: 10px; */
+  /* border-top-right-radius: 10px; */
+  text-align: center; 
+  margin-top: 100px;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 /* media queries 1025px */
@@ -351,11 +337,44 @@ footer
     {
         font-size: medium;
     }
-
+    /* latest updates */
     #latest
     {
     margin-left: 20px; 
     }
+
+    main{
+        height: auto;
+        width: 1000px;
+        margin-left: 5px;
+    }
+
+.box1{
+    height: 300px;
+    width: 1000px;
+
+  }
+
+  .container5{
+    height: 250px;
+    width: 220px;
+}
+.container4{
+    height: 250px;
+    width: 220px;
+}
+.container3{
+    height: 250px;
+    width: 220px;
+}
+.container2{
+    height: 250px;
+    width: 220px;
+}
+.container1{
+    height: 250px;
+    width: 220px;
+}
 
 
     /* car reviews */
@@ -365,9 +384,9 @@ footer
     margin-left: 20px;  
 }
 
-.box
+.box2
 {
-    height: 500px;
+    height: auto;
     width: 1000px;
     margin-left: 5px;
 }
@@ -402,54 +421,7 @@ footer
     width: 450px;
 }
 
-/* bike reviews */
-
-#bikereviews
-{
-    text-align: left;
-    margin-left: 20px;
-}
-.box1
-{
-    height: 500px;
-    width: 1000px;
-    margin-left: 5px;
-}
-
-.container001
-{
-    height: 110px;
-    width: 450px;
-}
-.container002
-{
-    height: 110px;
-    width: 450px;
-}
-.container003
-{
-    height: 110px;
-    width: 450px;
-}
-.container004
-{
-    height: 110px;
-    width: 450px;
-}
-.container005
-{
-    height: 110px;
-    width: 450px;
-}
-.container006
-{
-    height: 110px;
-    width: 450px;
-}
-
-
-
-    .foot
+.foot
     {
         font-size: 1.2rem;
     }   
@@ -464,10 +436,45 @@ footer
     {
         font-size: medium;
     }
+    /* latest updates */
     #latest
     {
     margin-left: 20px; 
     }
+    main{
+        height: auto;
+        width: 760px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+.box1{
+    height: 300px;
+    width: 740px;
+
+  }
+
+  .container5{
+    height: 250px;
+    width: 210px;
+}
+.container4{
+    height: 250px;
+    width: 220px;
+}
+.container3{
+    height: 250px;
+    width: 220px;
+}
+.container2{
+    height: 250px;
+    width: 220px;
+}
+.container1{
+    height: 250px;
+    width: 220px;
+}
+   
 
     /* car reviews */
    
@@ -476,9 +483,9 @@ footer
     margin-left: 20px;  
 }
 
-.box
+.box2
 {
-    height: 500px;
+    height: auto;
     width: 600px;
     margin-left: 70px;
 }
@@ -520,58 +527,11 @@ footer
     margin-top: 30px;
     margin-bottom: 30px;
 }
-
-/* bike reviews */
-
-#bikereviews
-{
-    text-align: left;
-    margin-left: 20px;
+.btn1{
+    height: 35px;
+    width: 130px;
+    margin-left: 150px;
 }
-.box1
-{
-    height: 500px;
-    width: 600px;
-    margin-left: 70px;
-}
-
-.container006
-{
-    height: 110px;
-    width: 450px;
-    margin-top: 20px;
-}
-.container005
-{
-    height: 110px;
-    width: 450px;
-    margin-top: 40px;
-}
-.container004
-{
-    height: 110px;
-    width: 450px;
-    margin-top: 40px;
-}
-.container003
-{
-    height: 110px;
-    width: 450px;
-    margin-top: 40px;
-}
-.container002
-{
-    height: 110px;
-    width: 450px;
-    margin-top: 40px;
-}
-.container001
-{
-    height: 110px;
-    width: 450px;
-    margin-top: 40px;
-}
-
 
 footer
  {
@@ -593,10 +553,56 @@ footer
     {
         font-size: medium;
     }
-    #latest
-    {
-    margin-left: 10px; 
-    }
+
+   
+     /* latest updates */
+     #latest
+     {
+     margin-left: 10px; 
+     }
+     main{
+         height: auto;
+         width: 431px;
+         margin-left: 5px;
+         margin-right: 5px;
+     }
+ 
+ .box1{
+     height: 350px;
+     width: 400px;
+ 
+   }
+ 
+   .container5{
+    height: 300px;
+    width: 320px;
+    margin-left: 40px;
+    margin-right: 50px;
+ }
+ .container4{
+    height: 300px;
+    width: 320px;
+    margin-left: 40px;
+    margin-right: 50px;
+ }
+ .container3{
+    height: 300px;
+    width: 320px;
+    margin-left: 40px;
+    margin-right: 50px;
+ }
+ .container2{
+    height: 300px;
+    width: 320px;
+    margin-left: 40px;
+    margin-right: 50px;
+ }
+ .container1{
+    height: 300px;
+    width: 320px;
+    margin-left: 40px;
+    margin-right: 50px;
+ }
    
      /* car reviews */
    
@@ -605,9 +611,9 @@ footer
      margin-left: 20px;  
  }
  
- .box
+ .box2
  {
-     height: 500px;
+     height: auto;
      width: 410px;
      margin-left: 5px;
  }
@@ -648,62 +654,16 @@ footer
      margin-top: 30px;
      margin-bottom: 30px;
  }
- 
- /* bike reviews */
- 
- #bikereviews
- {
-     text-align: left;
-     margin-left: 10px;
- }
- .box1
- {
-     height: 500px;
-     width: 410px;
-     margin-left: 5px;
- }
- 
- .container006
- {
-     height: 110px;
-     width: 390px;
-     margin-top: 30px;
- }
- .container005
- {
-     height: 110px;
-     width: 390px;
-     margin-top: 30px;
- }
- .container004
- {
-     height: 110px;
-     width: 390px;;
-     margin-top: 30px;
- }
- .container003
- {
-     height: 110px;
-     width: 390px;;
-     margin-top: 30px;
- }
- .container002
- {
-     height: 110px;
-     width: 390px;
-     margin-top: 30px;
- }
- .container001
- {
-     height: 110px;
-     width: 390px;
-     margin-top: 20px;
- }
-     footer
+ .btn1{
+    height: 35px;
+    width: 130px;
+    margin-left: 200px;
+}
+ footer
     {
     font-size: 1.2rem;
     }
-    .foot
+.foot
     {
         font-size: 1.2rem;
     }   
