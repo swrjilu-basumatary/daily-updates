@@ -85,3 +85,15 @@ h1{
     justify-content: center;
     align-items: center;
 }
+.store{
+    margin-top: 100px;
+    cursor: pointer;
+    text-align: center;
+    font-size: x-large;
+    font-weight: 500;
+    margin-bottom: 100px;
+    color: red;
+}
+a{
+    text-decoration: none;
+}
